@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    height: 100%;
+    background-image:url("image/banner.jpg") ; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    
+}
+.header i{
+    font-size: 50px;
+    float: left;
+   
+    
+
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0px;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color:white;
+    float: right;
+}
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p {
+    margin:  18px 0;
+}
+.input-group{
+    width: 90%;
+    max-width: 400px;
+    border-radius: 50px ;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border:0 !important;
+    border-radius:50px !important;
+    margin: 0px !important;
+    box-shadow: none ;
+}
+.input-group-text{
+    width:100px;
+    background-image:linear-gradient(#00ff7e,#1f3d90) !important;
+    border:0 !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    padding: 0 25px !important;
+    margin: 0 0 0 5px;
+
+}
+.features{
+    padding: 100px 0px;
+}
+h1{
+    text-align: center;
+    padding-bottom:30px;
+}
+.feature-img img{
+width: 100%;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    border-radius: 50%; 
+    position: absolute ;
+    bottom: -20px !important;
+    left: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    padding: 10px;
+}
+
+.feature-img{
+    position: relative;
+    
+}
+.feature-img .img{
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rating{
+    
+    bottom: -10px;
+    right: 0px;
+    position: absolute;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+    position: absolute;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa {
+    margin-right: 5px;
+    color: #ff5722;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 30px;
+}
+.gallery{
+    padding-top: 150px ;
+    background: white;
+}
+.gallery-box img{
+    width : 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.gallery-box h4{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner{
+    height: 80%;
+    background-image:url("image/5.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.banner-highlights{
+    padding: 70px 0 ;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0 ;
+    outline: none ;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+}
+.users-feedback{
+    width: 100%;
+    padding: 100px 0;    
+}
+.users-review{
+    text-align: center;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 100, 0.2);
+    padding-bottom: 30px;
+}
+.users-review p {
+    padding: 50px 10px 20px 10px ;
+}
+.users-feedback img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: -30px 0px 0px 40% ;
+    position: relative;
+}
+
+.users-feedback p::before {
+    content: '\201d';
+    color: #6495ed;
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    font-family: sans-serif;
+    left: 45%;
+    top: -25px;
+}
+.footer{
+    padding: 100px 20px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: #fff;
+}
+.footer-logo {
+    padding-left: -100px; 
+    text-align: center;
+}
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+.footer p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 50px;
+
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart{
+    margin: 0 5px;
+    color:red;
+}
+.footer .NguyenHuuHuy{
+    text-align: center;
+}
